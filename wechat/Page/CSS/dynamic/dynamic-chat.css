@@ -1,0 +1,131 @@
+
+#dynamic{
+    width: 100%;
+    flex:1;
+    /*background-color:greenyellow;*/
+    overflow: scroll;
+    /*display:flex;*/
+}
+#search-area{
+    height:42px;
+    background-color:rgba(212,212,212,0.5);
+}
+#search{
+    height:28px;
+    width: 96%;
+    background-color: rgba(250,250,250,1);
+    border-radius: 3px;
+    box-shadow:0px 0px 1px rgba(212,212,212,1);
+    position:relative;
+
+
+}
+#search-img{
+    width:24px;
+    height:24px;
+    background-image: url(../../img/search.svg);
+    background-size: contain;
+    /*<img src="../img/search.svg" height="24px" width="24px";alt="">*/
+}
+#search-title{
+    font-size:17px;
+    color:rgba(80,80,80,1);
+    margin:1px 0px 2px 8px;
+    font-weight: 400;
+}
+#search-voice{
+    height: 20px;
+    width:20px;
+    position:absolute;
+    right:10px;
+    background-image: url(../../img/voice.svg);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    /*display:flex;*/
+    /*align-self: flex-end;*/
+}
+/*#chat-list{*/
+    /*!*width: 100%;*!*/
+    /*!*display:flex;*!*/
+    /*!*align-items:flex-start;*!*/
+
+/*}*/
+
+.chat-item{
+    height:65px;
+    width: 96%;
+    /*background-color: yellowgreen;*/
+
+    border-bottom: 1px  solid rgba(33,33,33,0.4);
+    display:flex;
+    align-items:center;
+    margin:0 auto;
+}
+
+.item-left{
+    height:52px;
+    width:52px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 3px;
+}
+.item-right{
+    margin-left: 10px;
+    height: 52px;
+    flex:1;
+
+}
+.content-top{
+    height:30px;
+    display:flex;
+    justify-content: flex-end;
+}
+.nickname{
+    height:30px;
+    flex:1;
+    font-size:18px;
+    font-weight: 600;
+    color: #313131;
+}
+.time{
+    height:30px;
+    width: 80px;
+    font-size: 13px;
+    color:rgba(33,33,33,1);
+    text-align: right;
+
+}
+.content-bottom{
+    height:22px;
+    display:flex;
+    justify-content: flex-end;
+
+
+}
+.max-width{
+    max-width: 335px;
+}
+.content-text{
+    height:22px;
+    flex:1;
+    color:rgba(33,33,33,0.7);
+    word-break: keep-all;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.content-voice{
+    height:22px;
+    flex:1;
+    color:rgba(204,17,0,1);
+}
+.silence{
+    height:16px;
+    width: 16px;
+    background-size: cover;
+    background-position: bottom;
+    margin-top: 5px;
+
+}

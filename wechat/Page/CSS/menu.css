@@ -1,0 +1,72 @@
+
+#menu{
+    width: 100%;
+    height:60px;
+    background-color:rgba(240,240,240,0.9);;
+    display:flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+    border-top: 1px  solid rgba(33,33,33,0.3);
+}
+
+.menu-content{
+    height:60px;
+    flex:1;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 3px;
+    color:rgba(33,33,33,0.7);
+}
+
+
+.menu-top{
+    width: 40%;
+    height:35px;
+    margin-top: 5px;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.menu-bottom{
+    width: 40%;
+    height:15px;
+    font-size: 10px;
+    /*color:rgba(33,33,33,0.7);*/
+    text-align: center;
+    line-height: 15px;
+}
+
+ .menu-content:active {
+     color:rgba(107,228,0,0.7);
+ }
+
+
+#chat{
+    background-image: url(../img/bottom/chat-1.svg);
+}
+.menu-content:active #chat{
+    background-image: url(../img/bottom/chat-2.svg);
+}
+
+#book{
+    background-image: url(../img/bottom/book-1.svg);
+}
+.menu-content:active #book{
+    background-image: url(../img/bottom/book-2.svg);
+}
+
+#discover{
+    background-image: url(../img/bottom/discover-1.svg);
+}
+.menu-content:active #discover{
+    background-image: url(../img/bottom/discover-2.svg);
+}
+
+#me{
+    background-image: url(../img/bottom/me-1.svg);
+}
+.menu-content:active #me{
+    background-image: url(../img/bottom/me-2.svg);
+}

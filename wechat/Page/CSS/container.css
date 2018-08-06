@@ -1,0 +1,27 @@
+.container{
+    height:100%;
+    width:100%;
+    /*background-color:gray;*/
+    display:flex;
+    flex-flow:column;
+    justify-content:space-between;
+    /*position:fixed;*/
+    position:fixed;
+    z-index: 3;
+
+
+}
+.wechat{
+    height:100%;
+    width:100%;
+    /*background-color:gray;*/
+    display:flex;
+    flex-flow:column;
+    justify-content:space-between;
+    /*position:fixed;*/
+    position:relative;
+    z-index: 1;
+}
+/*#tm {display: none;}*/
+/*#tm:checked ~ #friend{transform: translateX(150px);}*/
+

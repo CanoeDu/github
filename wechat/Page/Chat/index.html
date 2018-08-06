@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Title</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+
+    <link rel="stylesheet" href="../CSS/common.css">
+    <link rel="stylesheet" href="../CSS/container.css">
+    <link rel="stylesheet" href="../CSS/signal.css">
+    <link rel="stylesheet" href="../CSS/menu.css">
+    <link rel="stylesheet" href="../CSS/friend/friend.css">
+
+</head>
+<body>
+
+<div class="wechat">
+
+<div class="container" >
+    <!--<input type="checkbox" id="tm"/>-->
+    <!-- signal start-->
+    <div id="signal" class="">
+        <div id="signal-left"class="">
+            <div id="signal-area" class="">
+                <div class="signal-ok"></div>
+                <div class="signal-ok"></div>
+                <div class="signal-ok"></div>
+                <div class="signal-lose"></div>
+                <div class="signal-lose"></div>
+            </div>
+            <div id="operation" class="">中国移动</div>
+            <div id="xg" class="">4G</div>
+        </div>
+        <div id="signal-center" class="xy-center">99:99</div>
+
+        <div id="signal-right" class="">
+            <div id="lock" class=""></div>
+            <div id="location"></div>
+            <div id="battery-number" class="">20%</div>
+
+
+            <div id="battery" class="">
+                <div id="battery-body">
+                    <div id="battery-core" class="charging"> </div>
+                </div>
+                <div id="battery-header"> </div>
+            </div>
+
+
+
+        </div>
+
+    </div>
+    <!-- signal end-->
+    <div id="title" class=""></div>
+    <!-- title end -->
+
+    <!-- dynamic start -->
+    <div id="dynamic" class=""></div>
+    <!-- dynamic end -->
+
+    <!-- menu end -->
+    <div id="menu">
+        <div class="menu-content" data-dynamic="dynamic/dynamic-chat.html" data-title="title/title-chat.html">
+            <!--<div class="menu-content" data-page="dynamic/dynamic-chat.html">-->
+
+            <div  id="chat" class="menu-top"></div>
+            <div class="menu-bottom ">微信</div>
+        </div>
+        <div class="menu-content" data-dynamic="dynamic/dynamic-book.html" data-title="title/title-book.html">
+            <div  id="book" class="menu-top" ></div>
+            <div class="menu-bottom ">通讯录</div>
+        </div>
+        <div class="menu-content" data-dynamic="dynamic/dynamic-discover.html" data-title="title/title-discover.html">
+            <div  id="discover" class="menu-top"></div>
+            <div class="menu-bottom ">发现</div>
+        </div>
+        <div class="menu-content" data-dynamic="dynamic/dynamic-me.html" data-title="title/title-me.html">
+            <div  id="me" class="menu-top "></div>
+            <div class="menu-bottom ">我</div>
+        </div>
+    </div>
+    <!-- menu end -->
+
+</div>
+    <!--&lt;!&ndash;friend-star&ndash;&gt;-->
+    <!--<div id="friend"></div>-->
+    <!--&lt;!&ndash;friend-end&ndash;&gt;-->
+
+
+
+
+
+
+</div>
+</body>
+</html>
+<!-- 引入脚本 -->
+<script src="../JS/jquery/jquery.js"></script>
+<!--<script scr="../JS/jquery/jquery-2.1.4.js"></script>-->
+<script src="../JS/page/router.js"></script>
+<script src="../JS/page/index.js"></script>
+<!--<script src="../JS/page/friend-router.js"></script>-->
+
+
